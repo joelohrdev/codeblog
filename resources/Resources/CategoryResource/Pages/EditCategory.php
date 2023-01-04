@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\PostResource\Pages;
+namespace resources\Resources\CategoryResource\Pages;
 
-use App\Filament\Resources\PostResource;
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\EditRecord;
+use resources\Resources\CategoryResource;
 
-class EditPost extends EditRecord
+class EditCategory extends EditRecord
 {
-    protected static string $resource = PostResource::class;
+    protected static string $resource = CategoryResource::class;
 
     protected function getActions(): array
     {

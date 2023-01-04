@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\CategoryResource\Pages;
+namespace resources\Resources\PostResource\Pages;
 
-use App\Filament\Resources\CategoryResource;
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\ListRecords;
+use resources\Resources\PostResource;
 
-class ListCategories extends ListRecords
+class ListPosts extends ListRecords
 {
-    protected static string $resource = CategoryResource::class;
+    protected static string $resource = PostResource::class;
 
     protected function getActions(): array
     {
