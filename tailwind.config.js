@@ -6,7 +6,13 @@ module.exports = {
         "./resources/**/*.vue",
     ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+            sans: ['Open Sans'],
+        }
+    },
   },
-  plugins: [],
+  plugins: [
+      require('@tailwindcss/typography'),
+  ],
 }

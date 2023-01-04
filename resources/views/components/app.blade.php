@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JL Code Blog</title>
     @vite('resources/css/app.css')
+    <style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap'); </style>
     @livewireStyles
 </head>
 <body class="w-full h-auto py-14">
