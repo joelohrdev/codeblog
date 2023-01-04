@@ -1,9 +1,9 @@
 <?php
 
-namespace resources\Resources\PostResource\Pages;
+namespace App\Filament\Resources\PostResource\Pages;
 
+use App\Filament\Resources\PostResource;
 use Filament\Resources\Pages\CreateRecord;
-use resources\Resources\PostResource;
 
 class CreatePost extends CreateRecord
 {

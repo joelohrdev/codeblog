@@ -1,9 +1,9 @@
 <?php
 
-namespace resources\Resources\CategoryResource\Pages;
+namespace App\Filament\Resources\CategoryResource\Pages;
 
+use App\Filament\Resources\CategoryResource;
 use Filament\Resources\Pages\CreateRecord;
-use resources\Resources\CategoryResource;
 
 class CreateCategory extends CreateRecord
 {
