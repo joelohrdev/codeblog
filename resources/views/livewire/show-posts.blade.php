@@ -1,5 +1,5 @@
 <div>
     @foreach($posts as $post)
-        {{ $post->title }}
+        <a href="{{ route('posts.show', $post) }}">{{ $post->title }}</a>
     @endforeach
 </div>
